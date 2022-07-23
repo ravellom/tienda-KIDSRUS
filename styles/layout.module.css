@@ -1,0 +1,100 @@
+.container {
+  width: 1220px;
+  margin: 50px auto;
+}
+
+.section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.footer_distributed{
+	background: orange;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: center;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.footer_distributed .footer_left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer_distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer_distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer_links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer_company_name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer_icons{
+	margin-top: 40px;
+}
+
+.footer_icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.fa-facebook::before {
+  content: "";
+}
+
+.fa {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal normal normal normal normal 1 FontAwesome;
+}
